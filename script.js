@@ -84,4 +84,18 @@ var swiper = new Swiper(".review-slider", {
   },
   loop: true,
   loopFillGroupWithBlank: true,
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    640: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+  },
 });
